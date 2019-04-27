@@ -1,4 +1,4 @@
-1.
+1. Give a substring spiderman it will show you the titles which is present in Json files and fetch the movie titles with spidername and        sort the list.
 2. Give number of elements in an array(n)
    Give the array elements
    Get the answer for maximum difference in an array
