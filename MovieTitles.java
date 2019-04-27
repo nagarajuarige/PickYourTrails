@@ -26,7 +26,7 @@ import org.json.simple.parser.ParseException;
 
 
 
-public class MovieTitles {
+public class SortMovieTitles {
 
 		
 
