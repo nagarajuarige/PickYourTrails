@@ -2,5 +2,10 @@
 2. Give number of elements in an array(n)
    Give the array elements
    Get the answer for maximum difference in an array
-3. Give the input string whether balanced or unbalanced
-   If the string is balanced one it will show true otherwise it will show false.
+3. ^(?=(?:(?:[ac]*[bd]){2})*[ac]*$)(?:(?:[bd]*[ac]){2})*[bd]*$
+   Explanation:
+   (?= start the lookahead
+   (?:(?:[ac]*[bd]){2})* look for any number of a or c, followed by one b or d which is 2 times, so we can get an even number.
+   [ac]* if there are a or c left
+   $ match the end of the string
+   The same flow has been repeated for starting with b and d.
